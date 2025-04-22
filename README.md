@@ -39,5 +39,170 @@ One alarming study found that fine-tuning GPT-3.5 with just a few examples conta
         <div class="flex flex-wrap gap-2 mt-5">
 
 
-# Part 2 Tool I Made To Demonstrate It 
+# Part 2 Website I Made To Demonstrate It 
+  ### LLM Security Research Dashboard: Comprehensive Analysis
+
+## 1. Attack Categories Matrix
+
+| Category           | Description                          | Risk Level | Common Defenses                               | Success Rate |
+|--------------------|--------------------------------------|------------|------------------------------------------------|--------------|
+| Prompt Injection   | Attempts to override system instructions | High       | Input sanitization, Context boundaries         | Medium       |
+| Jailbreak          | Bypasses ethical constraints         | Critical   | Behavioral training, Response filtering        | Low-Medium   |
+| Adversarial        | Manipulates model behavior           | High       | Format normalization, Input validation         | Medium       |
+| Social Engineering | Exploits human psychology            | High       | Trust verification, Multi-factor auth          | High         |
+| Data Poisoning     | Corrupts training integrity          | Critical   | Data validation, Source verification           | Medium       |
+
+---
+
+## 2. Security Level Impact Analysis
+
+| Security Level | Description         | Protection Measures                                                                 | Effectiveness |
+|----------------|---------------------|--------------------------------------------------------------------------------------|---------------|
+| High           | Maximum protection  | • Multi-layer validation<br>• Strict content filtering<br>• Context awareness       | 90-95%        |
+| Medium         | Balanced protection | • Basic validation<br>• Some filtering<br>• Limited context checking                 | 60-75%        |
+| Low            | Minimal protection  | • Basic checks only<br>• Limited filtering<br>• No context awareness                | 20-30%        |
+
+---
+
+## 3. Attack Technique Breakdown
+
+### 3.1 Prompt Injection Techniques
+
+- **Basic Command Override**  
+  └── Difficulty: Low  
+  └── Detection Rate: High  
+  └── Success Rate: Low
+
+- **System Role Impersonation**  
+  └── Difficulty: Medium  
+  └── Detection Rate: Medium  
+  └── Success Rate: Medium
+
+- **Context Manipulation**  
+  └── Difficulty: High  
+  └── Detection Rate: Medium  
+  └── Success Rate: Variable
+
+### 3.2 Jailbreak Techniques
+
+- **DAN (Do Anything Now)**  
+  └── Method: Role-playing  
+  └── Effectiveness: Decreasing  
+  └── Counter: Role boundaries
+
+- **Hypothetical Scenarios**  
+  └── Method: Context manipulation  
+  └── Effectiveness: Medium  
+  └── Counter: Context validation
+
+---
+
+## 4. Defense Mechanism Analysis
+
+| Defense Type        | Implementation   | Effectiveness | Resource Cost |
+|---------------------|------------------|---------------|---------------|
+| Content Filtering   | Pre-processing   | High          | Low           |
+| Behavioral Training | Model-level      | Very High     | High          |
+| Context Awareness   | Runtime          | Medium        | Medium        |
+| Input Validation    | Pre-processing   | High          | Low           |
+| Response Filtering  | Post-processing  | Medium        | Low           |
+
+---
+
+## 5. Attack Vector Statistics
+
+### 5.1 Success Rate by Security Level
+```
+High Security:   ▓░░░░░░░░░ 10%
+Medium Security: ▓▓▓▓▓░░░░░ 50%
+Low Security:    ▓▓▓▓▓▓▓▓░░ 80%
+```
+
+### 5.2 Detection Rate by Attack Type
+```
+Prompt Injection:    ▓▓▓▓▓▓▓░░░ 70%
+Jailbreak:           ▓▓▓▓▓▓░░░░ 60%
+Adversarial:         ▓▓▓▓▓▓▓▓░░ 80%
+Social Engineering:  ▓▓▓▓░░░░░░ 40%
+Data Poisoning:      ▓▓▓▓▓░░░░░ 50%
+```
+
+---
+
+## 6. Implementation Guidelines
+
+### 6.1 Security Level Implementation
+
+#### High Security
+- Full input validation  
+- Context awareness  
+- Response filtering  
+- Behavioral analysis
+
+#### Medium Security
+- Basic input validation  
+- Limited context awareness  
+- Basic response filtering
+
+#### Low Security
+- Minimal validation  
+- No context awareness
+
+### 6.2 Best Practices
+
+#### Input Validation
+- Sanitize user inputs  
+- Check for malicious patterns  
+- Validate context boundaries
+
+#### Response Processing
+- Filter harmful content  
+- Verify response alignment  
+- Maintain consistency
+
+#### Monitoring
+- Track attack patterns  
+- Log suspicious activities  
+- Analyze failure modes
+
+---
+
+## 7. Future Research Directions
+
+| Area                         | Priority | Potential Impact | Timeline     |
+|------------------------------|----------|------------------|--------------|
+| Advanced Context Understanding | High     | Critical          | Short-term   |
+| Behavioral Pattern Recognition | High     | High              | Medium-term  |
+| Automated Defense Evolution    | Medium   | High              | Long-term    |
+| Cross-model Attack Resistance | Medium   | Medium            | Medium-term  |
+
+---
+
+## 8. Recommendations
+
+### Short-term
+- Implement robust input validation  
+- Deploy content filtering  
+- Monitor attack patterns
+
+### Medium-term
+- Develop advanced context awareness  
+- Improve behavioral training  
+- Enhance response filtering
+
+### Long-term
+- Research adaptive defenses  
+- Develop cross-model protection  
+- Implement automated evolution
+
+---
+
+## 9. Educational Resources
+
+- Interactive demos  
+- Case studies  
+- Attack simulations  
+- Defense workshops
+
+---
        
